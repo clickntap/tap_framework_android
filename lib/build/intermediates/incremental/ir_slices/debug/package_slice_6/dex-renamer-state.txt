@@ -1,0 +1,4 @@
+#Mon Jun 17 18:08:15 CEST 2019
+base.0=/Users/tmendici/Documents/GitHub/tap_framework_android/lib/build/intermediates/transforms/dexMerger/debug/6
+path.0=classes.dex
+renamed.0=classes.dex

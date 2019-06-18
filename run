@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-./gradlew assembleDebug
-/Users/tmendici/Android/platform-tools/adb install -r sample/build/outputs/apk/debug/sample-debug.apk
-/Users/tmendici/Android/platform-tools/adb shell am start -n com.clickntap.tap.demo/com.clickntap.tap.demo.DemoActivity
-/Users/tmendici/Android/platform-tools/adb logcat

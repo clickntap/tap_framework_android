@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Tue Jun 18 11:50:33 CEST 2019
-0.baseType=DIRECTORY
-0.base=/Users/tmendici/Documents/GitHub/tap_framework_android/sample/build/intermediates/dex/release/mergeDexRelease/out
-0.path=classes.dex
-0.set=DEX
-count=1

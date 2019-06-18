@@ -1,0 +1,19 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.clickntap.tap.demo"
+        minSdkVersion 17
+        targetSdkVersion 26
+        versionCode 8
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    api project(':library')
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+}

@@ -1,0 +1,141 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:2:1-16:12
+MERGED from [:library] /Users/tmendici/Documents/GitHub/tap_framework_android/library/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/30e57fadb0eedd55b69e7bf39d360b84/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/8f1d679d712559a071b938da9b9af8e1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/8385b11209f42e6ffe9556850f98840d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/b5d4b68f6e55bea386afb9404de59edb/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/030e28be1377da0f157f47f32443a607/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/c2058eed8c0031308001a3964463e048/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/46885c143d08f4a1a89782b6bd5ac251/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/d211641a597a200f3aca891089581506/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/334848b420c6e87e2a277bfe85db8b5f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/437a32c7b87f9f0b47fddffb65cdedf4/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/47c61e95509927ff28100675814024b2/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:2:1-16:12
+	package
+		ADDED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:2:1-16:12
+		INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:2:1-16:12
+		INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:5:5-14:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/30e57fadb0eedd55b69e7bf39d360b84/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/30e57fadb0eedd55b69e7bf39d360b84/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/8f1d679d712559a071b938da9b9af8e1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/8f1d679d712559a071b938da9b9af8e1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/8385b11209f42e6ffe9556850f98840d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/8385b11209f42e6ffe9556850f98840d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/b5d4b68f6e55bea386afb9404de59edb/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/b5d4b68f6e55bea386afb9404de59edb/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/030e28be1377da0f157f47f32443a607/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/030e28be1377da0f157f47f32443a607/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/c2058eed8c0031308001a3964463e048/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/c2058eed8c0031308001a3964463e048/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/46885c143d08f4a1a89782b6bd5ac251/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/46885c143d08f4a1a89782b6bd5ac251/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/d211641a597a200f3aca891089581506/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/d211641a597a200f3aca891089581506/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/334848b420c6e87e2a277bfe85db8b5f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/334848b420c6e87e2a277bfe85db8b5f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/437a32c7b87f9f0b47fddffb65cdedf4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/437a32c7b87f9f0b47fddffb65cdedf4/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/47c61e95509927ff28100675814024b2/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/47c61e95509927ff28100675814024b2/AndroidManifest.xml:24:5-28:19
+activity#com.clickntap.tap.demo.DemoActivity
+ADDED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:7:9-12:20
+	android:name
+		ADDED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:7:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:8:13-11:29
+action#android.intent.action.MAIN
+ADDED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:9:17-69
+	android:name
+		ADDED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:9:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:10:17-77
+	android:name
+		ADDED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml:10:27-74
+uses-sdk
+INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml
+INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml
+MERGED from [:library] /Users/tmendici/Documents/GitHub/tap_framework_android/library/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:library] /Users/tmendici/Documents/GitHub/tap_framework_android/library/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/30e57fadb0eedd55b69e7bf39d360b84/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/30e57fadb0eedd55b69e7bf39d360b84/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/8f1d679d712559a071b938da9b9af8e1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/8f1d679d712559a071b938da9b9af8e1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/8385b11209f42e6ffe9556850f98840d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/8385b11209f42e6ffe9556850f98840d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/b5d4b68f6e55bea386afb9404de59edb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/b5d4b68f6e55bea386afb9404de59edb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/030e28be1377da0f157f47f32443a607/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/030e28be1377da0f157f47f32443a607/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/c2058eed8c0031308001a3964463e048/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/c2058eed8c0031308001a3964463e048/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/46885c143d08f4a1a89782b6bd5ac251/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/46885c143d08f4a1a89782b6bd5ac251/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/d211641a597a200f3aca891089581506/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/d211641a597a200f3aca891089581506/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/334848b420c6e87e2a277bfe85db8b5f/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/334848b420c6e87e2a277bfe85db8b5f/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/437a32c7b87f9f0b47fddffb65cdedf4/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/437a32c7b87f9f0b47fddffb65cdedf4/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/47c61e95509927ff28100675814024b2/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/47c61e95509927ff28100675814024b2/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml
+INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/30e57fadb0eedd55b69e7bf39d360b84/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/tmendici/Documents/GitHub/tap_framework_android/sample/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/30e57fadb0eedd55b69e7bf39d360b84/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/8385b11209f42e6ffe9556850f98840d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/8385b11209f42e6ffe9556850f98840d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/b5d4b68f6e55bea386afb9404de59edb/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/b5d4b68f6e55bea386afb9404de59edb/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/030e28be1377da0f157f47f32443a607/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/030e28be1377da0f157f47f32443a607/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/c2058eed8c0031308001a3964463e048/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/c2058eed8c0031308001a3964463e048/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/46885c143d08f4a1a89782b6bd5ac251/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/46885c143d08f4a1a89782b6bd5ac251/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/d211641a597a200f3aca891089581506/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/d211641a597a200f3aca891089581506/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/334848b420c6e87e2a277bfe85db8b5f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/334848b420c6e87e2a277bfe85db8b5f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/437a32c7b87f9f0b47fddffb65cdedf4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/437a32c7b87f9f0b47fddffb65cdedf4/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/30e57fadb0eedd55b69e7bf39d360b84/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/30e57fadb0eedd55b69e7bf39d360b84/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/47c61e95509927ff28100675814024b2/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/47c61e95509927ff28100675814024b2/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/tmendici/.gradle/caches/transforms-2/files-2.1/47c61e95509927ff28100675814024b2/AndroidManifest.xml:26:13-58

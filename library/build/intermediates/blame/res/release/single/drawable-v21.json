@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/tmendici/Documents/GitHub/tap_framework_android/library/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/tmendici/.gradle/caches/transforms-2/files-2.1/437a32c7b87f9f0b47fddffb65cdedf4/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/tmendici/Documents/GitHub/tap_framework_android/library/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/tmendici/.gradle/caches/transforms-2/files-2.1/30e57fadb0eedd55b69e7bf39d360b84/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/tmendici/Documents/GitHub/tap_framework_android/library/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/tmendici/.gradle/caches/transforms-2/files-2.1/30e57fadb0eedd55b69e7bf39d360b84/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/tmendici/Documents/GitHub/tap_framework_android/library/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/tmendici/.gradle/caches/transforms-2/files-2.1/30e57fadb0eedd55b69e7bf39d360b84/res/drawable-v21/abc_edit_text_material.xml"
+    }
+]

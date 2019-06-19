@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.clickntap.tap.demo"
-        minSdkVersion 17
+        minSdkVersion 21
         targetSdkVersion 26
         versionCode 8
         versionName "1.0"

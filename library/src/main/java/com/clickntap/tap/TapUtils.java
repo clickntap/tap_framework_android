@@ -12,6 +12,8 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 
+import org.json.JSONObject;
+
 
 public class TapUtils {
 
@@ -21,6 +23,10 @@ public class TapUtils {
 
     public static void log(Throwable e) {
         Log.e("--tap--", e.getMessage(), e);
+    }
+
+    public static void log(JSONObject env) {
+        log(env.toString());
     }
 
     public static void fade(final View view, final float alpha, final int visibility, final TapCallback callback) {

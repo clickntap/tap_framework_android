@@ -1,7 +1,6 @@
 package com.clickntap.tap.demo;
 
 import android.os.Bundle;
-import android.view.View;
 
 import com.clickntap.tap.TapAppActivity;
 import com.clickntap.tap.TapUtils;
@@ -15,12 +14,13 @@ public class DemoActivity extends TapAppActivity {
         try {
             JSONObject options = new JSONObject();
             options.put("baseUrl", "");
-            options.put("developer", "1");
-            options.put("backgroundColor", "#000000");
-            options.put("color", "#F0F0F0");
+            options.put("appUrl", "");
+            options.put("developer", "0");
+            options.put("backgroundColor", "#FFFFFF");
+            options.put("color", "#000000");
             options.put("projectId", "0");
             getApp().setOptions(options);
-        } catch (JSONException e) {
+        } catch ( JSONException e) {
             TapUtils.log(e);
         }
         super.onCreate(savedInstanceState);

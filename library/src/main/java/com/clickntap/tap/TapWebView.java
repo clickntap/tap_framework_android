@@ -42,6 +42,7 @@ import com.google.maps.android.SphericalUtil;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.FileAsyncHttpResponseHandler;
+import com.loopj.android.http.JsonHttpResponseHandler;
 import com.loopj.android.http.MySSLSocketFactory;
 import com.loopj.android.http.RequestParams;
 
@@ -172,15 +173,58 @@ public class TapWebView extends FrameLayout {
         getActivity().unregisterReceiver(notificationReceiver);
     }
 
+
+    public void setEnv(String callback) throws Exception {
+        int deviceId = Integer.parseInt(getValue("deviceId", "0"));
+        int userId = Integer.parseInt(getValue("userId", "0"));
+        JSONObject env = new JSONObject();
+        Map<String, ?> keys = getSharedPreferences().getAll();
+        for (Map.Entry<String, ?> entry : keys.entrySet()) {
+            env.put(entry.getKey(), entry.getValue() + "");
+        }
+        env.put("userId", userId);
+        env.put("deviceId", deviceId);
+        TapUtils.log(env);
+        js(callback, env.toString());
+    }
+
+
     @JavascriptInterface
     public void postMessage(final String jsonAsString) {
         ((Activity) getContext()).runOnUiThread(new Runnable() {
             public void run() {
                 try {
-
                     final JSONObject json = new JSONObject(jsonAsString);
                     final String callback = json.has("callback") ? json.getString("callback") : "";
-                    if ("wait-on".equals(json.getString("what"))) {
+                    if ("context".equals(json.getString("what"))) {
+
+                        int deviceId = Integer.parseInt(getValue("deviceId", "0"));
+                        int userId = Integer.parseInt(getValue("userId", "0"));
+                        setValue("url", json.getString("url"));
+                        RequestParams params = new RequestParams();
+                        params.add("channel", "android");
+                        params.add("deviceId", Integer.toString(deviceId));
+                        params.add("userId", Integer.toString(userId));
+                        client.get(json.getString("url"), params, new JsonHttpResponseHandler() {
+                            public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
+                                try {
+                                    setValue("deviceId", response.get("deviceId").toString());
+                                    if(response.has("userId")) {
+                                        setValue("userId", response.get("userId").toString());
+                                    }
+                                    setEnv(callback);
+                                } catch (Exception e) {
+                                    TapUtils.log(e);
+                                }
+                            }
+
+                            public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
+                                try {
+                                } catch (Exception e) {
+                                }
+                            }
+                        });
+                    } else if ("wait-on".equals(json.getString("what"))) {
                         TapUtils.fadeIn(spinner);
                     } else if ("wait-off".equals(json.getString("what"))) {
                         TapUtils.fadeOut(spinner);

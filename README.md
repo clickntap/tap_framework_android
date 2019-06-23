@@ -5,17 +5,24 @@
 # Tap Framework Android
 ## Tappable Apps always needs Clickable Platforms :)
 
-Gradle Groovy DSL
+### Use with Gradle
 ```gradle
+
 implementation 'com.clickntap:tap_framework:3.0.0'
+
 ```
 
-Apache Maven
+### Use with Maven
 ```xml
+
 <dependency>
   <groupId>com.clickntap</groupId>
   <artifactId>tap_framework</artifactId>
   <version>3.0.0</version>
   <type>aar</type>
 </dependency>
+
 ```
+
+### Support or Contact
+Having trouble with Tap Framework? Contact info@clickntap.com and we’ll help you sort it out.

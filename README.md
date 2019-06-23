@@ -11,7 +11,7 @@ implementation 'com.clickntap:tap_framework:3.0.0'
 ```
 
 Apache Maven
-```maven
+```xml
 <dependency>
   <groupId>com.clickntap</groupId>
   <artifactId>tap_framework</artifactId>

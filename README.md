@@ -5,17 +5,16 @@
 # Tap Framework Android
 
 Tap is a framework to build tappable Android Apps
+Tappable Apps always needs Clickable Platforms :)
 
-## Tappable Apps always needs Clickable Platforms :)
-
-### Use with Gradle
+## Use with Gradle
 ```gradle
 
 implementation 'com.clickntap:tap_framework:3.0.0'
 
 ```
 
-### Use with Maven
+## Use with Maven
 ```xml
 
 <dependency>
@@ -27,5 +26,5 @@ implementation 'com.clickntap:tap_framework:3.0.0'
 
 ```
 
-### Support or Contact
+## Support or Contact
 Having trouble with Tap Framework? Contact info@clickntap.com and we’ll help you sort it out.

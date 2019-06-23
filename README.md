@@ -3,6 +3,9 @@
 [![Platform](https://api.clickntap.com/Google%20Android/Platform.svg)](https://search.maven.org/artifact/com.clickntap/tap_framework/)
 
 # Tap Framework Android
+
+Tap is a framework to build tappable Android Apps
+
 ## Tappable Apps always needs Clickable Platforms :)
 
 ### Use with Gradle

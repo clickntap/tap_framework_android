@@ -4,7 +4,8 @@
 
 # Tap Framework Android
 
-Tap is a framework to build tappable Android Apps
+Tap is a framework to build tappable Android Apps.
+
 Tappable Apps always needs Clickable Platforms :)
 
 ## Use with Gradle

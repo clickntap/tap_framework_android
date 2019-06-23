@@ -4,3 +4,7 @@
 
 # Tap Framework Android
 Tappable Apps always needs Clickable Platforms :)
+
+```gradle
+implementation 'com.clickntap:tap_framework:3.0.0'
+```

@@ -1,4 +1,4 @@
-[![Version](https://api.clickntap.com/3.0.0/Tap%20Framework%20Android.svg)](https://search.maven.org/artifact/com.clickntap/tap_framework/)
+[![Version](https://api.clickntap.com/3.1.0/Tap%20Framework%20Android.svg)](https://search.maven.org/artifact/com.clickntap/tap_framework/)
 [![License](https://api.clickntap.com/MIT/License.svg)](https://search.maven.org/artifact/com.clickntap/tap_framework/)
 [![Platform](https://api.clickntap.com/Google%20Android/Platform.svg)](https://search.maven.org/artifact/com.clickntap/tap_framework/)
 
@@ -11,7 +11,7 @@ Tappable Apps always needs Clickable Platforms :)
 ## Use with Gradle
 ```gradle
 
-implementation 'com.clickntap:tap_framework:3.0.0'
+implementation 'com.clickntap:tap_framework:3.1.0'
 
 ```
 
@@ -21,7 +21,7 @@ implementation 'com.clickntap:tap_framework:3.0.0'
 <dependency>
   <groupId>com.clickntap</groupId>
   <artifactId>tap_framework</artifactId>
-  <version>3.0.0</version>
+  <version>3.1.0</version>
   <type>aar</type>
 </dependency>
 

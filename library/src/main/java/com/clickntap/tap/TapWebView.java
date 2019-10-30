@@ -189,6 +189,48 @@ public class TapWebView extends FrameLayout {
     }
 
 
+    protected void setupEnv(final JSONObject json, final String callback) throws Exception {
+        JSONObject env = new JSONObject();
+
+        Map<String, ?> keys = getSharedPreferences().getAll();
+        for (Map.Entry<String, ?> entry : keys.entrySet()) {
+            env.put(entry.getKey(), entry.getValue() + "");
+        }
+
+        int appId = Integer.parseInt(getValue("appId", "0"));
+        int userId = Integer.parseInt(getValue("userId", "0"));
+        env.put("userId", userId);
+        env.put("appId", appId);
+        env.put("channel", "android");
+
+        if (appId == 0) {
+            AsyncHttpClient client = new AsyncHttpClient();
+             client.get(json.getString("url") + "add/?channel=android", new JsonHttpResponseHandler() {
+                public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
+                    if (response.has("id")) {
+                        try {
+                            setValue("appId", response.get("id").toString());
+                            setupEnv(json, callback);
+                        } catch (Exception e) {
+                        }
+                    }
+                }
+                public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
+                    super.onFailure(statusCode, headers, responseString, throwable);
+                    try {
+                        setupEnv(json, callback);
+                    } catch (Exception e) {
+                    }
+                }
+                public void onProgress(long bytesWritten, long totalSize) {
+
+                }
+            });
+        } else {
+            js(callback, env);
+        }
+    }
+
     @JavascriptInterface
     public void postMessage(final String jsonAsString) {
         ((Activity) getContext()).runOnUiThread(new Runnable() {
@@ -196,7 +238,9 @@ public class TapWebView extends FrameLayout {
                 try {
                     final JSONObject json = new JSONObject(jsonAsString);
                     final String callback = json.has("callback") ? json.getString("callback") : "";
-                    if ("context".equals(json.getString("what"))) {
+                    if ("env".equals(json.getString("what"))) {
+                        setupEnv(json, callback);
+                    } else if ("context".equals(json.getString("what"))) {
 
                         int deviceId = Integer.parseInt(getValue("deviceId", "0"));
                         int userId = Integer.parseInt(getValue("userId", "0"));
